@@ -1,0 +1,161 @@
+Delivered-To: peerawat.y@ku.th
+Received: by 2002:a17:906:471a:b0:a43:15f2:92ac with SMTP id y26csp1065149ejq;
+        Fri, 1 Mar 2024 00:57:38 -0800 (PST)
+X-Google-Smtp-Source: AGHT+IGTvV+BeP6NAb5adJSIVn6S7reARUug276jZj6Rt0JlZ60HZ2u3QysgHcSgpZX68MylVNsb
+X-Received: by 2002:a0d:e6c7:0:b0:609:76d1:f272 with SMTP id p190-20020a0de6c7000000b0060976d1f272mr904631ywe.4.1709283458322;
+        Fri, 01 Mar 2024 00:57:38 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1709283458; cv=none;
+        d=google.com; s=arc-20160816;
+        b=jsZEMPKeQlYY5tYd1wEMc0ywnCdbkWXI1Z94ulX3Qy2CvmE2mJPABnT8Z0WL3sqlkN
+         MIhb8ykGwJCd1ThdjMEbyaKW1gSoue983NoT35WnQl2s447RmaEfMT9rpt8jjOm4kLvD
+         CrxxAXJMsn1OiDZGPk0h6Ug397W6W+CFokorxHs4dXWnz/8/0xUQmtaEkddQyehPs+rL
+         z1/Gh9u3f3u/EP+lOlOBcwwFOwhue2i68hQSGIA9TXZN+1l3bCDmi8zeMdO1PSw5kyPH
+         dewtDunMkXAyjx0I/Zt8RJ6RnK0Ah6VUsop40wr9XUAs3QPZrSsFmqbtXeWGQaTuUG0R
+         u+dg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:date:message-id:feedback-id:to:subject:from
+         :dkim-signature:dkim-signature;
+        bh=Bxn40vPrNkHCIrBYntLCpHdfwvkfqVkKe72ztaq4pHo=;
+        fh=Idk6ciNHk0rQoawMN7Bxp9MzUhX9cVStLFP6xEfrp2Q=;
+        b=zo3bUzOIf6BMvGi2Vuufs10ZEb2QwwVUyiWBUrUxZiWkQvVEKUA4u8KMMGSG1/R1y0
+         yf6nyjlMl93C4ZGl1Z/lsy7mq+zh2J4554TRAtV0gyAPPwVNrPQCTsgukF04luVDGe9Q
+         lZm1YZnWaCf5I+/0bs3T3klZEZwDBRmyUOIDwK5RB3bg0rpG0BoElF5o60ohcvn8gHHR
+         c3etACcOJ7GSFy+V/T33OW0wADQ50T5I1J7NpJ0KHICF6+dSA3mSyIR6z55GB9rfj8bQ
+         UegWNQbOjbDE7279wu7/1r9vLoeZDTLqzIpkNS6h7sOZdnGNMWriHICA5PQY7WjO5Ww6
+         3OzA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@mandrillapp.com header.s=mte1 header.b="Q0L/koYq";
+       dkim=pass header.i=@jlcpcb.com header.s=mandrill header.b=FOSx+jYe;
+       spf=pass (google.com: domain of bounce-md_31015052.65e19881.v1-3eedf11530074cb4bf784d1b03d0bc87@mandrillapp.com designates 198.2.179.24 as permitted sender) smtp.mailfrom=bounce-md_31015052.65e19881.v1-3eedf11530074cb4bf784d1b03d0bc87@mandrillapp.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=jlcpcb.com
+Return-Path: <bounce-md_31015052.65e19881.v1-3eedf11530074cb4bf784d1b03d0bc87@mandrillapp.com>
+Received: from mail179-24.suw41.mandrillapp.com (mail179-24.suw41.mandrillapp.com. [198.2.179.24])
+        by mx.google.com with ESMTPS id i1-20020a81c741000000b006097fb0aca1si561430ywl.122.2024.03.01.00.57.37
+        for <peerawat.y@ku.th>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Fri, 01 Mar 2024 00:57:38 -0800 (PST)
+Received-SPF: pass (google.com: domain of bounce-md_31015052.65e19881.v1-3eedf11530074cb4bf784d1b03d0bc87@mandrillapp.com designates 198.2.179.24 as permitted sender) client-ip=198.2.179.24;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@mandrillapp.com header.s=mte1 header.b="Q0L/koYq";
+       dkim=pass header.i=@jlcpcb.com header.s=mandrill header.b=FOSx+jYe;
+       spf=pass (google.com: domain of bounce-md_31015052.65e19881.v1-3eedf11530074cb4bf784d1b03d0bc87@mandrillapp.com designates 198.2.179.24 as permitted sender) smtp.mailfrom=bounce-md_31015052.65e19881.v1-3eedf11530074cb4bf784d1b03d0bc87@mandrillapp.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=jlcpcb.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mandrillapp.com;
+	s=mte1; t=1709283457; x=1709543957;
+	bh=Bxn40vPrNkHCIrBYntLCpHdfwvkfqVkKe72ztaq4pHo=;
+	h=From:Subject:To:Feedback-ID:Message-Id:Date:MIME-Version:
+	 Content-Type:CC:Date:Subject:From;
+	b=Q0L/koYq+MoExhBHb0L79AGmEt4T+uSoA0s4k6rDnCwiN2RdRFdTiamSCNKcoDILU
+	 T/6YK3NvJDN8st+72ptxqpNQ7JpKmjkHVfNvTCwXcBNqgFu/l+JK26wYnmdqsn4j4C
+	 dhrzR8MIgMcFHpORl5jASSElV8gQ7f0SX6Jjdt1ZyxvVOJxE9A5744axy+ohjnSkVw
+	 HGsVpCvW74z9qRHo9y2M/Z+UBvL4doyt13r4tTvY/lsvHs7AWHLdfE2V9ePVw2Az4K
+	 d6nwG676X8yr+meUgzh7uT8v7Zimpmr+NWvauUSmfE9lyQHZvv9esOrHUMIFeMYEMB
+	 ot3RX4dT4BmiQ==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=jlcpcb.com;
+	s=mandrill; t=1709283457; x=1709543957; i=noreply@jlcpcb.com;
+	bh=Bxn40vPrNkHCIrBYntLCpHdfwvkfqVkKe72ztaq4pHo=;
+	h=From:Subject:To:Feedback-ID:Message-Id:Date:MIME-Version:
+	 Content-Type:CC:Date:Subject:From;
+	b=FOSx+jYeR9ooazTySBmpWNcgDCLMyjEtaK6NIhgFhjaXcVp2zSRFYs1LN9ofSdxTi
+	 m6uaoAc11uQSodrp0CnYBcAmylkgab1HyyE0KQA6P0U4nKpYD5dMJFheHURm8kbz0v
+	 qjp2/PRPeWwB+f14O0Zt/HhADyfdk5q/1vF24w2I=
+Received: from pmta12.mandrill.prod.suw01.rsglab.com (localhost [127.0.0.1])
+	by mail179-24.suw41.mandrillapp.com (Mailchimp) with ESMTP id 4TmMRj5rR4zJKF3Wl
+	for <peerawat.y@ku.th>; Fri,  1 Mar 2024 08:57:37 +0000 (GMT)
+From: JLCPCB <noreply@jlcpcb.com>
+Subject: =?utf-8?Q?Welcome=20to=20JLCPCB!?=
+Received: from [3.72.129.155] by mandrillapp.com id 3eedf11530074cb4bf784d1b03d0bc87; Fri, 01 Mar 2024 08:57:37 +0000
+To: peerawat.y@ku.th
+X-Native-Encoded: 1
+X-Report-Abuse: =?UTF-8?Q?Please=20forward=20a=20copy=20of=20this=20message,=20including=20all=20headers,=20to=20abuse@mandrill.com.=20You=20can=20also=20report=20abuse=20here:=20https://mandrillapp.com/contact/abuse=3Fid=3D31015052.3eedf11530074cb4bf784d1b03d0bc87?=
+X-Mandrill-User: md_31015052
+Feedback-ID: 31015052:31015052.20240301:md
+Message-Id: <31015052.20240301085737.65e19881aa32a5.13589769@mail179-24.suw41.mandrillapp.com>
+Date: Fri, 01 Mar 2024 08:57:37 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="_av-sTMjgZ-cxHna_N4zfT6w0g"
+
+--_av-sTMjgZ-cxHna_N4zfT6w0g
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear=C2=A0Valued=C2=A0Customer,
+
+Thanks=C2=A0for=C2=A0choosing=C2=A0JLCPCB!=C2=A0From=C2=A0prototype=C2=A0to=
+=C2=A0mass=C2=A0production,=C2=A0we=C2=A0are=C2=A0here=C2=A0to=C2=A0acceler=
+ate=C2=A0your=C2=A0innovation=C2=A0and=C2=A0help=C2=A0you=C2=A0improve=C2=
+=A0efficiency,=C2=A0powering=C2=A0up=C2=A0your=C2=A0business.=C2=A0With=C2=
+=A0JLCPCB,=C2=A0you'll=C2=A0enjoy:
+
+24/7=C2=A0Online=C2=A0customer=C2=A0support=C2=A0
+
+Cheaper=C2=A0&=C2=A0Faster=C2=A0Services=EF=BC=9A
+
+**PCB&PCBA:=C2=A0*https://jlcpcb.com <https://jlcpcb.com/>
+
+High-quality=C2=A0PCBs=C2=A0start=C2=A0from=C2=A0$2=C2=A0for=C2=A01-8=C2=A0=
+layers.=C2=A0
+
+**3D&CNC:=C2=A0*https://jlc3dp.com <https://jlc3dp.com/>
+
+Industrial=C2=A03D=C2=A0Printing=C2=A0from=C2=A0$0.3.=C2=A0
+
+**Mechatronic Parts: *https://jlcmc.com <https://jlcmc.com/>
+
+Mechatronic=C2=A0parts=C2=A0saving 50-80%=C2=A0
+
+JLCPCB=C2=A0is=C2=A0committed=C2=A0to=C2=A0providing=C2=A0you=C2=A0with=C2=
+=A0industry-leading=C2=A0electronic=C2=A0manufacturing=C2=A0and=C2=A0mechan=
+ical=C2=A0solutions.=C2=A0
+
+Feel=C2=A0free=C2=A0to=C2=A0reach=C2=A0out=C2=A0to=C2=A0us=C2=A0anytime=C2=
+=A0for=C2=A0assistance.=C2=A0
+
+Best=C2=A0wishes,
+
+JLCPCB=C2=A0Team
+
+--_av-sTMjgZ-cxHna_N4zfT6w0g
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<p>Dear=C2=A0Valued=C2=A0Customer,</p><p><br></p><p>Thanks=C2=A0for=C2=A0ch=
+oosing=C2=A0JLCPCB!=C2=A0From=C2=A0prototype=C2=A0to=C2=A0mass=C2=A0product=
+ion,=C2=A0we=C2=A0are=C2=A0here=C2=A0to=C2=A0accelerate=C2=A0your=C2=A0inno=
+vation=C2=A0and=C2=A0help=C2=A0you=C2=A0improve=C2=A0efficiency,=C2=A0power=
+ing=C2=A0up=C2=A0your=C2=A0business.=C2=A0With=C2=A0JLCPCB,=C2=A0you'll=C2=
+=A0enjoy:</p><p><br></p><p>24/7=C2=A0Online=C2=A0customer=C2=A0support=C2=
+=A0</p><p>Cheaper=C2=A0&=C2=A0Faster=C2=A0Services=EF=BC=9A</p><p><strong>*=
+PCB&PCBA:=C2=A0</strong><a href=3D"https://mandrillapp.com/track/click/3101=
+5052/jlcpcb.com?p=3DeyJzIjoiaXg1MTY5d2xhNEtqckNxVzk3SEhxU1M2T2JNIiwidiI6MSw=
+icCI6IntcInVcIjozMTAxNTA1MixcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL2psY3=
+BjYi5jb21cXFwvXCIsXCJpZFwiOlwiM2VlZGYxMTUzMDA3NGNiNGJmNzg0ZDFiMDNkMGJjODdcI=
+ixcInVybF9pZHNcIjpbXCI3NTQzMTA3MTM2NmNkOGI2MmExNjJiZjc4NGRjZTdlZDBmMTBhMzg0=
+XCJdfSJ9" rel=3D"noopener noreferrer" target=3D"_blank">https://jlcpcb.com<=
+/a></p><p>High-quality=C2=A0PCBs=C2=A0start=C2=A0from=C2=A0$2=C2=A0for=C2=
+=A01-8=C2=A0layers.=C2=A0</p><p><br></p><p><strong>*3D&CNC:=C2=A0</strong><=
+a href=3D"https://mandrillapp.com/track/click/31015052/jlc3dp.com?p=3DeyJzI=
+joiNDRwMW55N0hPbTBpbkVoRXpacnhoaC1idXU0IiwidiI6MSwicCI6IntcInVcIjozMTAxNTA1=
+MixcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL2psYzNkcC5jb21cXFwvXCIsXCJpZFw=
+iOlwiM2VlZGYxMTUzMDA3NGNiNGJmNzg0ZDFiMDNkMGJjODdcIixcInVybF9pZHNcIjpbXCJkMD=
+gxMDZkNjU4NWY5NWUzYmVmYTc3NmZhMjRjYWZiZDRjZmM5ZTVkXCJdfSJ9" rel=3D"noopener=
+ noreferrer" target=3D"_blank">https://jlc3dp.com</a></p><p>Industrial=C2=
+=A03D=C2=A0Printing=C2=A0from=C2=A0$0.3.=C2=A0</p><p><br></p><p><strong>*Me=
+chatronic Parts: </strong><a href=3D"https://mandrillapp.com/track/click/31=
+015052/jlcmc.com?p=3DeyJzIjoicUN2VlRLWnVLUzU5WWpFUHZDT3JiWkIxd0VnIiwidiI6MS=
+wicCI6IntcInVcIjozMTAxNTA1MixcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL2psY=
+21jLmNvbVxcXC9cIixcImlkXCI6XCIzZWVkZjExNTMwMDc0Y2I0YmY3ODRkMWIwM2QwYmM4N1wi=
+LFwidXJsX2lkc1wiOltcImNmNmY4MDE1N2E1OTc1NzNjYzg3ZmNiMTIzNGI2M2E2NTEzMWEzYjh=
+cIl19In0" rel=3D"noopener noreferrer" target=3D"_blank">https://jlcmc.com</=
+a></p><p>Mechatronic=C2=A0parts=C2=A0saving 50-80%=C2=A0</p><p><br></p><p><=
+br></p><p>JLCPCB=C2=A0is=C2=A0committed=C2=A0to=C2=A0providing=C2=A0you=C2=
+=A0with=C2=A0industry-leading=C2=A0electronic=C2=A0manufacturing=C2=A0and=
+=C2=A0mechanical=C2=A0solutions.=C2=A0</p><p>Feel=C2=A0free=C2=A0to=C2=A0re=
+ach=C2=A0out=C2=A0to=C2=A0us=C2=A0anytime=C2=A0for=C2=A0assistance.=C2=A0</=
+p><p><br></p><p>Best=C2=A0wishes,</p><p>JLCPCB=C2=A0Team</p><img src=3D"htt=
+ps://mandrillapp.com/track/open.php?u=3D31015052&id=3D3eedf11530074cb4bf784=
+d1b03d0bc87" height=3D"1" width=3D"1" alt=3D"">
+
+--_av-sTMjgZ-cxHna_N4zfT6w0g--
+
