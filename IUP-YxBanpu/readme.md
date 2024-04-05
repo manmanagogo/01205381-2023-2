@@ -87,3 +87,4 @@ Graph from geometry
 
 From an experiment in Filter Design, starting with designing in the Sonnet program first, then designing in the EasyEDA program to order the real board. By experiment Values ​​obtained
 from simulation in the program It has a value similar to the real thing for which it was designed. There may be some fluctuations in the expected values ​​in some parts. from the expected design or where the legs are soldered into the copper of the L, causing the value to change.
+
