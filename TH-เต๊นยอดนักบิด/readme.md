@@ -63,15 +63,7 @@ sec 11
 ![image](https://github.com/PeerawatAltoTechCourse/01205381-2023-2/assets/132571902/8bcf2fdf-f411-43fe-9dde-f113c3de0f7f)
 
 
-จากนั้นนำไปทำการทดสอบ 
-
-![image](https://github.com/PeerawatAltoTechCourse/01205381-2023-2/assets/132571902/06628dc8-c7bd-4702-aef9-fbea864cc372)
-
-
-![image](https://github.com/PeerawatAltoTechCourse/01205381-2023-2/assets/132571902/62e7afb6-b448-4de1-b2a5-198d59be2479)
-
-
-โดยได้ผลลัพธ์เป็นดังตารางข้างล่างนี้
+จากนั้นนำไปทำการทดสอบ โดยได้ผลลัพธ์เป็นดังตารางข้างล่างนี้
 
 
 ![image](https://github.com/PeerawatAltoTechCourse/01205381-2023-2/assets/132571902/20781926-2410-44fe-9cf0-d963057ea3a4)
