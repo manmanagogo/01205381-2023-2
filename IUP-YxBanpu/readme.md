@@ -54,7 +54,9 @@ Select the most suitable case (Case 3) for design.
 
 ## Step 4: compute and design
 
+
 Use TxLine to compute PCB of board
+
 
 
 
@@ -78,15 +80,17 @@ Graph from geometry
 
 
 
+
 ## Step 5: design PCB by using EasyEDA
+
 
 <img width="502" src="Photo/14.png">
 
 
 ## Conclusion
 
-From an experiment in Filter Design, starting with designing in the Sonnet program first, then designing in the EasyEDA program to order the real board. By experiment Values ​​obtained
-from netlist simulation in the program It has a value similar to the geometry for which it was designed.
+From an experiment in Filter Design, starting with designing in the Sonnet program first, then designing in the EasyEDA program to order the real board. By experiment Values
 
+EasyEda Link : https://u.easyeda.com/join?type=project&key=5ea4228c53ffa0e6ddba4e34925de24c&inviter=244c3179518c4eb89a0b23e466ed27fb
 
 EasyEda Link : [EASYEDA](https://oshwlab.com/akasuk.ni/pcb123456789)
