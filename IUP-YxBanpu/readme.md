@@ -54,7 +54,7 @@ Select the most suitable case (Case 3) for design.
 
 ## Step 4: compute and design
 
-Use TxLine to compute PLC of board
+Use TxLine to compute PCB of board
 
 
 
@@ -78,7 +78,7 @@ Graph from geometry
 
 
 
-## Step 5: design PLC by using EasyEDA
+## Step 5: design PCB by using EasyEDA
 
 <img width="502" src="Photo/14.png">
 
@@ -86,4 +86,7 @@ Graph from geometry
 ## Conclusion
 
 From an experiment in Filter Design, starting with designing in the Sonnet program first, then designing in the EasyEDA program to order the real board. By experiment Values ​​obtained
-from simulation in the program It has a value similar to the real thing for which it was designed. There may be some fluctuations in the expected values ​​in some parts. from the expected design or where the legs are soldered into the copper of the L, causing the value to change.
+from netlist simulation in the program It has a value similar to the geometry for which it was designed.
+
+
+EasyEda Link : https://u.easyeda.com/join?type=project&key=5ea4228c53ffa0e6ddba4e34925de24c&inviter=244c3179518c4eb89a0b23e466ed27fb
