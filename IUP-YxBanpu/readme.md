@@ -89,8 +89,10 @@ Graph from geometry
 
 ## Conclusion
 
-From an experiment in Filter Design, starting with designing in the Sonnet program first, then designing in the EasyEDA program to order the real board. By experiment Values
 
-EasyEda Link : https://u.easyeda.com/join?type=project&key=5ea4228c53ffa0e6ddba4e34925de24c&inviter=244c3179518c4eb89a0b23e466ed27fb
+From an experiment in Filter Design, starting with designing in the Sonnet program first, then designing in the EasyEDA program to order the real board. By experiment Values ​​obtained
+from simulation in the program It has a value similar to the real thing for which it was designed.copper of the L, causing the value to change.
+
 
 EasyEda Link : [EASYEDA](https://oshwlab.com/akasuk.ni/pcb123456789)
+
