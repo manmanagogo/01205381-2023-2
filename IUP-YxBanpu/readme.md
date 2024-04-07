@@ -94,7 +94,8 @@ from netlist simulation in the program It has a value similar to the geometry fo
 
 
 From an experiment in Filter Design, starting with designing in the Sonnet program first, then designing in the EasyEDA program to order the real board. By experiment Values ​​obtained
-from simulation in the program It has a value similar to the real thing for which it was designed.copper of the L, causing the value to change.
+from netlist simulation in the program It has a value similar to the geometry for which it was designed.
+
 
 
 EasyEda Link : [EASYEDA](https://oshwlab.com/akasuk.ni/pcb123456789)
