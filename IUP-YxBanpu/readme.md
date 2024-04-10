@@ -46,6 +46,9 @@ Case 3: Zh=150Ω, Zl=25Ω
 
 <img width="502" src="Photo/9.png">
 
+Compare Graph
+<img width="502" src="Photo/9_1.png">
+
 
 
 Compare cases at f = 2 GHz.
