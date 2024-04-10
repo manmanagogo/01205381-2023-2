@@ -1,4 +1,3 @@
-![download](https://github.com/NPeerawat/LAB_G3/assets/164756138/aee313df-816f-43df-ab65-a2ed68609e79)
 # แบบรายงานผลการทดลอง 
 # เรื่อง Transmission Line Filter Design 
 sec 11 <br/>
@@ -47,28 +46,33 @@ sec 11 <br/>
 
 นำชิ้นงานของจริงที่ได้ไปวัดค่าจริง โดยอ่านค่าผ่านโปรแกรม Putty แล้วนำไปพล้อตกราฟ<br/>
 
-##ค่าจริงที่ได้มีดังนี้
+ค่าจริงที่ได้มีดังนี้ <br/>
 
-port1 to port1 <br/>
+## port1 to port1 <br/>
 
 ![s111_0](https://github.com/NPeerawat/LAB_G3/assets/164756138/bc26c774-a328-4612-8b40-87224969d96e) <br/>
 ![s112_0](https://github.com/NPeerawat/LAB_G3/assets/164756138/00dbf9a1-0bf1-4322-b79f-838a25685e02) <br/>
 
 
-เปรียบเทียบกราฟที่ได้จากชิ้นงานจริง และ sonnet
+## เปรียบเทียบกราฟที่ได้จากชิ้นงานจริง และ sonnet (port1 to port1)<br/>
 
-![sonnets11](https://github.com/NPeerawat/LAB_G3/assets/164756138/c3872f62-2141-4ea1-8fed-823c8bee533e)<br/>
+-กราฟที่ได้จากชิ้นงาน และ sonnet <br/>
+![s11](https://github.com/NPeerawat/01205381-2023-2/assets/164756138/806f3920-de5f-49dc-a95f-91b7076d9763) <br/>
 
-
--port1 to port2 <br/>
+## port1 to port2 <br/>
 
 ![s121_0](https://github.com/NPeerawat/LAB_G3/assets/164756138/ba202f5c-1d2a-4a4d-8c45-7920e5cc36f5)<br/>
 ![s122_0](https://github.com/NPeerawat/LAB_G3/assets/164756138/5eff05c3-b1a9-4b05-ac50-d1b55e0aa49b)<br/>
 
 
-##เปรียบเทียบกราฟที่ได้จากชิ้นงานจริง และ sonnet (port1 to port2)
+## เปรียบเทียบกราฟที่ได้จากชิ้นงานจริง และ sonnet (port1 to port2) <br/>
 
-![sonnets1,2](https://github.com/NPeerawat/LAB_G3/assets/164756138/36d71d6e-bc3c-49ac-a268-632807eef76b)
+-ภาพที่ถ่ายจากเครื่องวัด <br/>
+![IMG_9022](https://github.com/NPeerawat/01205381-2023-2/assets/164756138/77b865c0-ae99-49f6-a9bf-e9bf533223f6) <br/>
+
+-กราฟที่ได้จากชิ้นงาน และ sonnet <br/>
+![s12](https://github.com/NPeerawat/01205381-2023-2/assets/164756138/cf039aa2-02ec-4e50-a8d6-a73c2b909e4a)<br/>
+
 
 
 ## สรุปผลการทดลอง
