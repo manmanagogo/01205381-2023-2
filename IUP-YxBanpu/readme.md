@@ -93,7 +93,7 @@ Graph from geometry
 ## Conclusion
 
 From an experiment in Filter Design, starting with designing in the Sonnet program first, then designing in the EasyEDA program to order the real board. By experiment Values ​​obtained
-from netlist simulation in the program It has a value similar to the geometry for which it was designed.
+from netlist simulation in the program It has a value similar to the geometry for which it was designed.  
 
 
 EasyEda Link : [EASYEDA](https://oshwlab.com/akasuk.ni/pcb123456789)
