@@ -46,7 +46,7 @@ Case 3: Zh=150Ω, Zl=25Ω
 
 <img width="502" src="Photo/9.png">
 
-Compare Graph
+Compare Graph<br>
 <img width="502" src="Photo/9_1.png">
 
 
