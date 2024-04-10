@@ -46,11 +46,14 @@ Case 3: Zh=150Ω, Zl=25Ω
 
 <img width="502" src="Photo/9.png">
 
+Compare Graph<br>
+<img width="502" src="Photo/9_1.png">
+
 
 
 Compare cases at f = 2 GHz.
 Consider practical implications alongside theoretical analysis.
-Select the most suitable case (Case 3) for design.
+Select the most suitable case (Case 1) for design.
 
 ## Step 4: compute and design
 
@@ -90,12 +93,7 @@ Graph from geometry
 ## Conclusion
 
 From an experiment in Filter Design, starting with designing in the Sonnet program first, then designing in the EasyEDA program to order the real board. By experiment Values ​​obtained
-from netlist simulation in the program It has a value similar to the geometry for which it was designed.
-
-
-From an experiment in Filter Design, starting with designing in the Sonnet program first, then designing in the EasyEDA program to order the real board. By experiment Values ​​obtained
-from netlist simulation in the program It has a value similar to the geometry for which it was designed.
-
+from netlist simulation in the program It has a value similar to the geometry for which it was designed.  
 
 
 EasyEda Link : [EASYEDA](https://oshwlab.com/akasuk.ni/pcb123456789)
