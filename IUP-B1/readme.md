@@ -18,5 +18,5 @@ We get abs(W/Wc) - 1 = 0.5 and then we gonna get N = 7
 
 <img width="800" src="Photo/graph.png">
 
-
+## 
 
