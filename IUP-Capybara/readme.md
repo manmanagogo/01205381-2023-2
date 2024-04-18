@@ -1,4 +1,6 @@
-<img width="250" src="Photo/1.png">
+<p align="center">
+  <img width="250" src="Photo/1.png">
+</p>
 
 # Lab Report 
 # On Transmission Line Filter Design
