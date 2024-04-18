@@ -1,3 +1,9 @@
+<p align="center">
+  <img width="100" height="100" src="Photo/logo.png">
+</p>
+
+
+
 ## Step 1: Introduction to Low Pass Filters
 
 Definition: Low Pass Filter (LPF) or High Cut is a frequency filter that allows low-frequency waves to pass through while cutting off higher-frequency waves.
