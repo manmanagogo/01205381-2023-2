@@ -1,6 +1,21 @@
 <p align="center">
-  <img width="100" height="100" src="Photo/logo.png">
+  <img width="120" height="120" src="Photo/logo.png">
 </p>
+
+<h4 align="center">Transmission Lines Filter Design</h4>
+
+<h4 align="center">YxBanpu Group</h4>
+
+#### Members
+1. Nattanan Anuwatkasem 6410554176
+2. Akasuk Nithisboonglang 6410554290
+3. Vorapol Cheewawutwatanawith 6410554257
+4. Paramet Kitchanwit 6410551070
+
+#### Present
+
+Communication Architecture and Devices Laboratory 01205381
+section 450 Semester 2/2023
 
 
 
@@ -103,9 +118,3 @@ from netlist simulation in the program It has a value similar to the geometry fo
 
 
 EasyEda Link : [EASYEDA](https://oshwlab.com/akasuk.ni/pcb123456789)
-
-## Members
-1. Nattanan Anuwatkasem 6410554176
-2. Akasuk Nithisboonglang 6410554290
-3. Vorapol Cheewawutwatanawith 6410554257
-4. Paramet Kitchanwit 6410551070
