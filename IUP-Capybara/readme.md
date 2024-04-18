@@ -6,16 +6,16 @@
 
 ### Submitted by
 
-Theerasith	    Jakkhutip	6410554222
-Pusanisa	    Pukpasuk	6410554249
-Watcharaporn	Pupuang	    6410554265
-Suttiporn   	Pidkanpai	6410554273
+Theerasith	    Jakkhutip	6410554222<br/>
+Pusanisa	    Pukpasuk	6410554249<br/>
+Watcharaporn	Pupuang	    6410554265<br/>
+Suttiporn   	Pidkanpai	6410554273<br/>
 
 ### Present to
 
 Asst.Prof. Denchai Worasawate
 
-Communication Architecture and Devices Laboratory 01205381 
+Communication Architecture and Devices Laboratory 01205381 <br/>
 section 450 Semester 2/2023 February 16, 2024
 
 ## Design a PCB LC Filter
