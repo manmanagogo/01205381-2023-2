@@ -6,16 +6,17 @@
 
 <h4 align="center">YxBanpu Group</h4>
 
+#### Present to
+Asst.Prof. Denchai Worasawate
+Communication Architecture and Devices Laboratory 01205381
+section 450 Semester 2/2023
+
 #### Members
 1. Nattanan Anuwatkasem 6410554176
 2. Akasuk Nithisboonglang 6410554290
 3. Vorapol Cheewawutwatanawith 6410554257
 4. Paramet Kitchanwit 6410551070
 
-#### Present
-
-Communication Architecture and Devices Laboratory 01205381
-section 450 Semester 2/2023
 
 
 
