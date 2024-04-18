@@ -25,3 +25,4 @@ We get abs(W/Wc) - 1 = 0.5 and then we gonna get N = 7
 <img width="800" src="Photo/25a.png">
 <img width="800" src="Photo/25b.png">
 <img width="800" src="Photo/50.png">
+<img width="800" src="Photo/newexcel.png">
