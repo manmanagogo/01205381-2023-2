@@ -39,7 +39,7 @@ section 450 Semester 2/2023 February 16, 2024
 
 ### 3. Then we will get the graph from the model as shown in the picture below.
 
-<img width="502" src="Photo/6.png">
+<img width="502" src="Photo/6.jpg">
 
 ### 4. When we have the desired graph, we then take the model through Sonnet to be drawn into EasyEDA in order to proceed with ordering the actual product.
 
