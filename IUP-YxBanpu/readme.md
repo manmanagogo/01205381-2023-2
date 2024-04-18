@@ -42,7 +42,7 @@ Case 1: Zh=100Ω, Zl=25Ω<br>
 
 Case 2: Zh=200Ω, Zl=25Ω<br>
 <img width="502" src="Photo/8.png">
-Case 3: Zh=150Ω, Zl=25Ω
+Case 3: Zh=150Ω, Zl=25Ω<br>
 
 <img width="502" src="Photo/9.png">
 
