@@ -4,4 +4,4 @@ by using frequency cutoff at 2 GHz and attenuation 3 GHz > 30 dB.
 
 #### We chosse 0.5 dB ripple Table
 
-<img width="502" src="Photo/0.5 dB.jpg">
+<img width="800" src="Photo/0.5 dB.jpg">
