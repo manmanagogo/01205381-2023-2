@@ -22,7 +22,7 @@ section 450 Semester 2/2023 February 16, 2024
 
 ## Design a PCB LC Filter
 
-#### Overview: The design process involves analysis of provided data and graphs to select appropriate values for designing LPF. Design 
+#### Overview: The design process involves analysis of provided data and graphs to select appropriate values for designing LPF. 
 #### Design Objective: Achieve maximum insertion loss (IL max) at 0–2.4 GHz (< 3 dB) and minimum rejection level (RJ min) at 4.8–6.0 GHz (>3 dB). Cut off 2GHz, ATTN 3GHz > 30dB
 
 ## Procedure
