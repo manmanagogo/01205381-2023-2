@@ -119,3 +119,12 @@ from netlist simulation in the program It has a value similar to the geometry fo
 
 
 EasyEda Link : [EASYEDA](https://oshwlab.com/akasuk.ni/pcb123456789)
+<<<<<<< HEAD
+
+## Members
+1. Nattanan Anuwatkasem 6410554176
+2. Akasuk Nithisboonglang 6410554290
+3. Vorapol Cheewawutwatanawith 6410554257
+4. Paramet Kitchanwit 6410551070
+=======
+>>>>>>> 45ac1d0e3680a4f58170118eef1dd8a5403b1251
