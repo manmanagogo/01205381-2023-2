@@ -43,13 +43,9 @@ section 450 Semester 2/2023 February 16, 2024
 
 <img width="502" src="Photo/3.png">
 
-### Adding Load R ( Standard Load ) that connect into port1 and port2
-
-<img width="502" src="Photo/11.jpg">
-
 ### 3. Design the model in Sonnet by following the data that we calculate in TXline.
 
-<img width="502" src="Photo/4.jpg">
+<img width="502" src="Photo/4.png">
 
 
 <img width="502" src="Photo/5.png">
@@ -60,7 +56,7 @@ section 450 Semester 2/2023 February 16, 2024
 
 ### 5. When we have the desired graph, we then take the model through Sonnet to be drawn into EasyEDA in order to proceed with ordering the actual product.
 
-<img width="502" src="Photo/7.png">
+<img width="502" src="Photo/7.png"><br/>
 
 <img width="502" src="Photo/10.png">
 
@@ -68,4 +64,4 @@ section 450 Semester 2/2023 February 16, 2024
 
 The design and implementation of a low-pass filter followed by the PCB layout using TxLine and EasyEDA, They have different results due to the error from the design. However the design of EasyEDA is also designed to be suitable for actual use.
 
-EasyEda Link : [EASYEDA](https://oshwlab.com/theerasith.j/lamprang?fbclid=IwZXh0bgNhZW0CMTAAAR387q4szgnwZ0NF0JG5kuTK_cfKIYK3CuDeicDpgzNXSIQ5p4fzgamg_SY_aem_AQDtRsw-5LrENGr56v3BatLeCpTBndG0CcVJC7uE6muV3cDhYNcNJmHI_fXzOj6HAVVlILR5aRDT35N89ze6zEBx)
+EasyEda Link : [EASYEDA](https://oshwlab.com/theerasith.j/pcb_test?fbclid=IwZXh0bgNhZW0CMTAAAR1lR5HC5pGhVcOon3vDlnHVhXWmToRibTwxVUUG9MXungvQfdh0AhUYp-I_aem_AR4uDc28JM0MCPg3I87egX5MJQxQ-Q_CNEF2t2XKqvX3LvApiEgQM_iJWEyHbjLqDdjmqLI_J3FjNW-ahFORDzr7)
