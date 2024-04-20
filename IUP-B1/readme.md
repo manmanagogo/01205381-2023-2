@@ -21,12 +21,15 @@ We get abs(W/Wc) - 1 = 0.5 and then we gonna get N = 7
 ## Using Txline to find width and length of C, L, and R
 
 <img width="800" src="Photo/105a.png">
+
 <img width="800" src="Photo/105b.png">
+
 <img width="800" src="Photo/25a.png">
+
 <img width="800" src="Photo/25b.png">
+
 <img width="800" src="Photo/50.png">
-<<<<<<< HEAD
-=======
+
 <img width="800" src="Photo/newexcel.png">
 
 ## Design PCB by using sonet.
@@ -39,4 +42,10 @@ We get abs(W/Wc) - 1 = 0.5 and then we gonna get N = 7
 <img width="800" src="Photo/easy.png">
 <img width="800" src="Photo/easy3D.png">
 
->>>>>>> 824d98de3c52ab6b97862b903a1f9506ade6f32f
+#### EasyEDA link: https://oshwlab.com/athit.sm/pcb1
+## Member
+#### Saranpatr Sriprom 6410551118
+#### Phankorn Bunyanuwat 6410551096
+#### Pruesikarn Sujirapan 6410551088
+#### Athit Samranvedhya 6410554281
+
