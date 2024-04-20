@@ -64,4 +64,4 @@ section 450 Semester 2/2023 February 16, 2024
 
 The design and implementation of a low-pass filter followed by the PCB layout using TxLine and EasyEDA, They have different results due to the error from the design. However the design of EasyEDA is also designed to be suitable for actual use.
 
-EasyEda Link : [EASYEDA](https://oshwlab.com/theerasith.j/pcb_test?fbclid=IwZXh0bgNhZW0CMTAAAR1lR5HC5pGhVcOon3vDlnHVhXWmToRibTwxVUUG9MXungvQfdh0AhUYp-I_aem_AR4uDc28JM0MCPg3I87egX5MJQxQ-Q_CNEF2t2XKqvX3LvApiEgQM_iJWEyHbjLqDdjmqLI_J3FjNW-ahFORDzr7)
+EasyEda Link : [EASYEDA](https://oshwlab.com/suttiporn.p/pcb-project)
