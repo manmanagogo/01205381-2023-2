@@ -31,11 +31,11 @@ section 450 Semester 2/2023 February 16, 2024
 
 <img width="502" src="Photo/8.png">
 
-### Choose n = 7 from graph
+### sampling at 100 ohms, we use at N=7
 
 <img width="502" src="Photo/9.png">
 
-### 2. Take the Electrical Length, Impedance, and Frequency obtained from the calculations in Excel for a 7th order Equal-Ripple Low-Pass Filter Prototype, and use them to create components in the Sonnet program by determining the sizes from the TX line.
+### 2. Take the Electrical Length, Impedance, and Frequency obtained from the calculations in Excel for a 7th order of 0.3 dB Ripple table , and use them to create components in the Sonnet program by determining the sizes from the TX line.
 
 <img width="502" src="Photo/2.png">
 
@@ -43,9 +43,13 @@ section 450 Semester 2/2023 February 16, 2024
 
 <img width="502" src="Photo/3.png">
 
+### Adding Load R ( Standard Load ) that connect into port1 and port2
+
+<img width="502" src="Photo/11.jpg">
+
 ### 3. Design the model in Sonnet by following the data that we calculate in TXline.
 
-<img width="502" src="Photo/4.png">
+<img width="502" src="Photo/4.jpg">
 
 
 <img width="502" src="Photo/5.png">
@@ -57,6 +61,8 @@ section 450 Semester 2/2023 February 16, 2024
 ### 5. When we have the desired graph, we then take the model through Sonnet to be drawn into EasyEDA in order to proceed with ordering the actual product.
 
 <img width="502" src="Photo/7.png">
+
+<img width="502" src="Photo/10.png">
 
 ## Conclusion
 
