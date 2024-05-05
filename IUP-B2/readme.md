@@ -35,9 +35,11 @@ We decide to use Zh = 100 ZL = 25 and R0 = 50 and we can calculate the length an
 ## Step 4: design PCB by using EasyEDA
 
 
-<img width="502" src="2deasyeda.png">
 
-<img width="502" src="3deasyeda.png">
+<img width="502" src="2deasy.png">
+
+<img width="502" src="3deasy.png">
+
 
 
 
