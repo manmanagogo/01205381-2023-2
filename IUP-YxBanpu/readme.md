@@ -63,7 +63,7 @@ Case 1: Zh=100Ω, Zl=25Ω<br>
 <img width="502" src="Photo/7.png">
 
 Case 2: Zh=200Ω, Zl=25Ω<br>
-<img width="502" src="Photo/8.png">
+<img width="502" src="Photo/8.png"><br>
 Case 3: Zh=150Ω, Zl=25Ω<br>
 
 <img width="502" src="Photo/9.png">
