@@ -122,11 +122,22 @@ Simulation Graph from data
 
 
 Real Data
+<img width="150" src="Experiment_photo/REAL_DATA1.png">
+<img width="150" src="Experiment_photo/REAL_DATA2.png">
+
+Real Graph from data
+<img width="550" src="Experiment_photo/Real_Graph.jpg">
+
+Comparison of Simulation and Real Graph
+<img width="550" src="Experiment_photo/Compare.png">
+From graph, Cut-off frequency is about 1.6 Ghz which is a little bit drop from requirement 
+(2 GHz) but the cut-off frequency from 2 elements of  the graph are slightly different. 
+
+
 
 ## Conclusion
 
 From an experiment in Filter Design, starting with designing in the Sonnet program first, then designing in the EasyEDA program to order the real board. By experiment Values ​​obtained
-from netlist simulation in the program It has a value similar to the geometry for which it was designed.  
-
+from netlist simulation in the program It has a value similar to the geometry for which it was designed. Then, when the geometry design is finished, it needs to create a real PLC board by using Internet service. When receiving a board, the board need to measured to compare value from real board and simulation.
 
 EasyEda Link : [EASYEDA](https://oshwlab.com/akasuk.ni/pcb123456789)
