@@ -111,6 +111,17 @@ Graph from geometry
 
 <img width="502" src="Photo/14.png">
 
+## Step 6: Final Data and Graph
+
+Simulation data
+
+<img width="150" src="Experiment_photo/SIM_DATA1.png"><img width="146" src="Experiment_photo/SIM_DATA2.png"><img width="150" src="Experiment_photo/SIM_DATA3.png">
+
+Simulation Graph from data
+<img width="550" src="Experiment_photo/Sim_Graph.jpg">
+
+
+Real Data
 
 ## Conclusion
 
@@ -119,12 +130,3 @@ from netlist simulation in the program It has a value similar to the geometry fo
 
 
 EasyEda Link : [EASYEDA](https://oshwlab.com/akasuk.ni/pcb123456789)
-<<<<<<< HEAD
-
-## Members
-1. Nattanan Anuwatkasem 6410554176
-2. Akasuk Nithisboonglang 6410554290
-3. Vorapol Cheewawutwatanawith 6410554257
-4. Paramet Kitchanwit 6410551070
-=======
->>>>>>> 45ac1d0e3680a4f58170118eef1dd8a5403b1251
